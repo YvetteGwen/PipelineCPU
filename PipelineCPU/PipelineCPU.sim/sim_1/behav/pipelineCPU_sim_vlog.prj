@@ -1,0 +1,20 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  "../../../src/ALU.v"
+verilog xil_defaultlib  "../../../src/ROM.v"
+verilog xil_defaultlib  "../../../src/RegFile.v"
+verilog xil_defaultlib  "../../../src/MEM_WB_Reg.v"
+verilog xil_defaultlib  "../../../src/IF_ID_Reg.v"
+verilog xil_defaultlib  "../../../src/ID_EX_Reg.v"
+verilog xil_defaultlib  "../../../src/Hazard_Unit.v"
+verilog xil_defaultlib  "../../../src/Forward_Unit.v"
+verilog xil_defaultlib  "../../../src/EX_MEM_Reg.v"
+verilog xil_defaultlib  "../../../src/DataMem.v"
+verilog xil_defaultlib  "../../../src/Control.v"
+verilog xil_defaultlib  "../../../src/PipelineCPU.v"
+verilog xil_defaultlib  "../../../PipelineCPU.srcs/sim_1/new/pipelineCPU_sim.v"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

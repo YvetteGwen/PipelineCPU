@@ -1,0 +1,110 @@
+#-----------------------------------------------------------
+# Vivado v2015.3 (64-bit)
+# SW Build 1368829 on Mon Sep 28 20:06:43 MDT 2015
+# IP Build 1367837 on Mon Sep 28 08:56:14 MDT 2015
+# Start of session at: Wed Dec 18 18:20:21 2019
+# Process ID: 1916
+# Current directory: D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18800 D:\A_GW\Courses\Computer_organization\lab\vivado\PipelineCPU\PipelineCPU.xpr
+# Log file: D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/vivado.log
+# Journal file: D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/PipelineCPU.xpr
+set_property is_enabled false [get_files  D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/PipelineCPU.v]
+update_compile_order -fileset sources_1
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+open_wave_config D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/pipelineCPU_sim_behav.wcfg
+source pipelineCPU_sim.tcl
+add_wave {{/pipelineCPU_sim/uut/IF_Instruct}} 
+add_wave {{/pipelineCPU_sim/uut/ID_Instruct}} 
+add_wave {{/pipelineCPU_sim/uut/ALU_1/A}} 
+add_wave {{/pipelineCPU_sim/uut/ALU_1/B}} 
+add_wave {{/pipelineCPU_sim/uut/ALU_1/Z}} 
+add_wave {{/pipelineCPU_sim/uut/RegFile_1/RF_data}} 
+save_wave_config {D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/pipelineCPU_sim_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/pipelineCPU_sim_behav.wcfg
+source pipelineCPU_sim.tcl
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+set_property is_enabled true [get_files  D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/PipelineCPU.v]
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+set_property is_enabled false [get_files  D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/PipeLine_Core.v]
+close_sim
+launch_simulation
+open_wave_config D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/pipelineCPU_sim_behav.wcfg
+source pipelineCPU_sim.tcl
+remove_files D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/PipeLine_Core.v
+close_sim
+launch_simulation
+open_wave_config D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/pipelineCPU_sim_behav.wcfg
+source pipelineCPU_sim.tcl
+close_sim
+launch_simulation
+open_wave_config D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/pipelineCPU_sim_behav.wcfg
+source pipelineCPU_sim.tcl
+close_sim
+launch_simulation
+open_wave_config D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/pipelineCPU_sim_behav.wcfg
+source pipelineCPU_sim.tcl
+close_sim
+launch_simulation
+open_wave_config D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/pipelineCPU_sim_behav.wcfg
+source pipelineCPU_sim.tcl
+add_wave {{/pipelineCPU_sim/uut/ALU/A}} 
+add_wave {{/pipelineCPU_sim/uut/ALU/B}} 
+add_wave {{/pipelineCPU_sim/uut/ALU/Z}} 
+save_wave_config {D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/pipelineCPU_sim_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/pipelineCPU_sim_behav.wcfg
+source pipelineCPU_sim.tcl
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close_sim
+launch_simulation
+open_wave_config D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/pipelineCPU_sim_behav.wcfg
+source pipelineCPU_sim.tcl
+close_sim
+launch_simulation
+open_wave_config D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/pipelineCPU_sim_behav.wcfg
+source pipelineCPU_sim.tcl
+close_sim
+launch_simulation
+open_wave_config D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/pipelineCPU_sim_behav.wcfg
+source pipelineCPU_sim.tcl
+close_sim
+launch_simulation
+open_wave_config D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/pipelineCPU_sim_behav.wcfg
+source pipelineCPU_sim.tcl
+close_sim
+launch_simulation
+open_wave_config D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/pipelineCPU_sim_behav.wcfg
+source pipelineCPU_sim.tcl
+add_wave {{/pipelineCPU_sim/uut/RegFile/RF_data}} 
+add_wave {{/pipelineCPU_sim/uut/ForwardA}} 
+add_wave {{/pipelineCPU_sim/uut/ForwardB}} 
+add_wave {{/pipelineCPU_sim/uut/ForwardJ}} 
+save_wave_config {D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/pipelineCPU_sim_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/pipelineCPU_sim_behav.wcfg
+source pipelineCPU_sim.tcl
+add_wave {{/pipelineCPU_sim/uut/WB_AddrC}} 
+add_wave {{/pipelineCPU_sim/uut/IF_PCSrc}} 
+save_wave_config {D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/pipelineCPU_sim_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/pipelineCPU_sim_behav.wcfg
+source pipelineCPU_sim.tcl
+close_sim

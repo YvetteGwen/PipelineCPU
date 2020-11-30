@@ -1,0 +1,32 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-311] analyzing module AddSub
+INFO: [VRFC 10-311] analyzing module Cmp
+INFO: [VRFC 10-311] analyzing module Logic
+INFO: [VRFC 10-311] analyzing module Shift
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/ROM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ROM
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/RegFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/MEM_WB_Reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEM_WB_Reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/IF_ID_Reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IF_ID_Reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/ID_EX_Reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ID_EX_Reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/Hazard_Unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Hazard_Unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/Forward_Unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Forward_Unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/EX_MEM_Reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EX_MEM_Reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/DataMem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataMem
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/Control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Control
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/PipelineCPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PipelineCPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/PipelineCPU.srcs/sim_1/new/pipelineCPU_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipelineCPU_sim
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/PipelineCPU.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

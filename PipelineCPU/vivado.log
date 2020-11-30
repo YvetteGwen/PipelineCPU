@@ -1,0 +1,418 @@
+#-----------------------------------------------------------
+# Vivado v2015.3 (64-bit)
+# SW Build 1368829 on Mon Sep 28 20:06:43 MDT 2015
+# IP Build 1367837 on Mon Sep 28 08:56:14 MDT 2015
+# Start of session at: Fri Dec 20 22:12:06 2019
+# Process ID: 13468
+# Current directory: D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18816 D:\A_GW\Courses\Computer_organization\lab\vivado\PipelineCPU\PipelineCPU.xpr
+# Log file: D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/vivado.log
+# Journal file: D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/PipelineCPU.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Program/xilinx_vivado/Vivado/2015.3/data/ip'.
+open_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:12 . Memory (MB): peak = 754.320 ; gain = 121.375
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'pipelineCPU_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/PipelineCPU.sim/sim_1/behav'
+"xvlog -m64 --relax -prj pipelineCPU_sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-311] analyzing module AddSub
+INFO: [VRFC 10-311] analyzing module Cmp
+INFO: [VRFC 10-311] analyzing module Logic
+INFO: [VRFC 10-311] analyzing module Shift
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/ROM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ROM
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/RegFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/MEM_WB_Reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEM_WB_Reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/IF_ID_Reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IF_ID_Reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/ID_EX_Reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ID_EX_Reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/Hazard_Unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Hazard_Unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/Forward_Unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Forward_Unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/EX_MEM_Reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EX_MEM_Reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/DataMem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataMem
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/Control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Control
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/PipelineCPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PipelineCPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/PipelineCPU.srcs/sim_1/new/pipelineCPU_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipelineCPU_sim
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/PipelineCPU.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/PipelineCPU.sim/sim_1/behav'
+Vivado Simulator 2015.3
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: D:/Program/xilinx_vivado/Vivado/2015.3/bin/unwrapped/win64.o/xelab.exe -wto 667bc37fbf1742b08d602662b13f6ddf --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot pipelineCPU_sim_behav xil_defaultlib.pipelineCPU_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 33 for port S [D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/ALU.v:26]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/PipelineCPU.v" Line 1. Module PipelineCPU doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/IF_ID_Reg.v" Line 1. Module IF_ID_Reg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/ID_EX_Reg.v" Line 1. Module ID_EX_Reg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/ALU.v" Line 1. Module ALU doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/ALU.v" Line 42. Module AddSub doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/ALU.v" Line 69. Module Cmp doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/ALU.v" Line 87. Module Logic doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/ALU.v" Line 104. Module Shift doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/EX_MEM_Reg.v" Line 1. Module EX_MEM_Reg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/MEM_WB_Reg.v" Line 1. Module MEM_WB_Reg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/Control.v" Line 1. Module Control doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/Forward_Unit.v" Line 1. Module Forward_Unit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/Hazard_Unit.v" Line 1. Module Hazard_Unit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/PipelineCPU.v" Line 1. Module PipelineCPU doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/IF_ID_Reg.v" Line 1. Module IF_ID_Reg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/ID_EX_Reg.v" Line 1. Module ID_EX_Reg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/ALU.v" Line 1. Module ALU doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/ALU.v" Line 42. Module AddSub doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/ALU.v" Line 69. Module Cmp doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/ALU.v" Line 87. Module Logic doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/ALU.v" Line 104. Module Shift doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/EX_MEM_Reg.v" Line 1. Module EX_MEM_Reg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/MEM_WB_Reg.v" Line 1. Module MEM_WB_Reg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/Control.v" Line 1. Module Control doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/Forward_Unit.v" Line 1. Module Forward_Unit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/Hazard_Unit.v" Line 1. Module Hazard_Unit doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.ROM
+Compiling module xil_defaultlib.IF_ID_Reg
+Compiling module xil_defaultlib.RegFile
+Compiling module xil_defaultlib.ID_EX_Reg
+Compiling module xil_defaultlib.AddSub
+Compiling module xil_defaultlib.Cmp
+Compiling module xil_defaultlib.Logic
+Compiling module xil_defaultlib.Shift
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.EX_MEM_Reg
+Compiling module xil_defaultlib.MEM_WB_Reg
+Compiling module xil_defaultlib.Control
+Compiling module xil_defaultlib.DataMem
+Compiling module xil_defaultlib.Forward_Unit
+Compiling module xil_defaultlib.Hazard_Unit
+Compiling module xil_defaultlib.PipelineCPU
+Compiling module xil_defaultlib.pipelineCPU_sim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot pipelineCPU_sim_behav
+
+****** Webtalk v2015.3 (64-bit)
+  **** SW Build 1368829 on Mon Sep 28 20:06:43 MDT 2015
+  **** IP Build 1367837 on Mon Sep 28 08:56:14 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/PipelineCPU.sim/sim_1/behav/xsim.dir/pipelineCPU_sim_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Fri Dec 20 22:13:18 2019...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:11 . Memory (MB): peak = 759.895 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/PipelineCPU.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "pipelineCPU_sim_behav -key {Behavioral:sim_1:Functional:pipelineCPU_sim} -tclbatch {pipelineCPU_sim.tcl} -view {D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/pipelineCPU_sim_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.3
+Time resolution is 1 ps
+open_wave_config D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/pipelineCPU_sim_behav.wcfg
+source pipelineCPU_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+xsim: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 828.918 ; gain = 69.023
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'pipelineCPU_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:22 . Memory (MB): peak = 828.918 ; gain = 70.676
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'pipelineCPU_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/PipelineCPU.sim/sim_1/behav'
+"xvlog -m64 --relax -prj pipelineCPU_sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-311] analyzing module AddSub
+INFO: [VRFC 10-311] analyzing module Cmp
+INFO: [VRFC 10-311] analyzing module Logic
+INFO: [VRFC 10-311] analyzing module Shift
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/ROM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ROM
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/RegFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/MEM_WB_Reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEM_WB_Reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/IF_ID_Reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IF_ID_Reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/ID_EX_Reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ID_EX_Reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/Hazard_Unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Hazard_Unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/Forward_Unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Forward_Unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/EX_MEM_Reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EX_MEM_Reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/DataMem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataMem
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/Control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Control
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/PipelineCPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PipelineCPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/PipelineCPU.srcs/sim_1/new/pipelineCPU_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipelineCPU_sim
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/PipelineCPU.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/PipelineCPU.sim/sim_1/behav'
+Vivado Simulator 2015.3
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: D:/Program/xilinx_vivado/Vivado/2015.3/bin/unwrapped/win64.o/xelab.exe -wto 667bc37fbf1742b08d602662b13f6ddf --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot pipelineCPU_sim_behav xil_defaultlib.pipelineCPU_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 33 for port S [D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/ALU.v:26]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/PipelineCPU.v" Line 1. Module PipelineCPU doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/IF_ID_Reg.v" Line 1. Module IF_ID_Reg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/ID_EX_Reg.v" Line 1. Module ID_EX_Reg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/ALU.v" Line 1. Module ALU doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/ALU.v" Line 42. Module AddSub doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/ALU.v" Line 69. Module Cmp doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/ALU.v" Line 87. Module Logic doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/ALU.v" Line 104. Module Shift doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/EX_MEM_Reg.v" Line 1. Module EX_MEM_Reg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/MEM_WB_Reg.v" Line 1. Module MEM_WB_Reg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/Control.v" Line 1. Module Control doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/Forward_Unit.v" Line 1. Module Forward_Unit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/Hazard_Unit.v" Line 1. Module Hazard_Unit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/PipelineCPU.v" Line 1. Module PipelineCPU doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/IF_ID_Reg.v" Line 1. Module IF_ID_Reg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/ID_EX_Reg.v" Line 1. Module ID_EX_Reg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/ALU.v" Line 1. Module ALU doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/ALU.v" Line 42. Module AddSub doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/ALU.v" Line 69. Module Cmp doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/ALU.v" Line 87. Module Logic doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/ALU.v" Line 104. Module Shift doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/EX_MEM_Reg.v" Line 1. Module EX_MEM_Reg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/MEM_WB_Reg.v" Line 1. Module MEM_WB_Reg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/Control.v" Line 1. Module Control doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/Forward_Unit.v" Line 1. Module Forward_Unit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/Hazard_Unit.v" Line 1. Module Hazard_Unit doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.ROM
+Compiling module xil_defaultlib.IF_ID_Reg
+Compiling module xil_defaultlib.RegFile
+Compiling module xil_defaultlib.ID_EX_Reg
+Compiling module xil_defaultlib.AddSub
+Compiling module xil_defaultlib.Cmp
+Compiling module xil_defaultlib.Logic
+Compiling module xil_defaultlib.Shift
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.EX_MEM_Reg
+Compiling module xil_defaultlib.MEM_WB_Reg
+Compiling module xil_defaultlib.Control
+Compiling module xil_defaultlib.DataMem
+Compiling module xil_defaultlib.Forward_Unit
+Compiling module xil_defaultlib.Hazard_Unit
+Compiling module xil_defaultlib.PipelineCPU
+Compiling module xil_defaultlib.pipelineCPU_sim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot pipelineCPU_sim_behav
+
+****** Webtalk v2015.3 (64-bit)
+  **** SW Build 1368829 on Mon Sep 28 20:06:43 MDT 2015
+  **** IP Build 1367837 on Mon Sep 28 08:56:14 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/PipelineCPU.sim/sim_1/behav/xsim.dir/pipelineCPU_sim_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Fri Dec 20 22:14:58 2019...
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/PipelineCPU.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "pipelineCPU_sim_behav -key {Behavioral:sim_1:Functional:pipelineCPU_sim} -tclbatch {pipelineCPU_sim.tcl} -view {D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/pipelineCPU_sim_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.3
+Time resolution is 1 ps
+open_wave_config D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/pipelineCPU_sim_behav.wcfg
+WARNING: Simulation object /pipelineCPU_sim/uut/ForwardJ was not found in the design.
+source pipelineCPU_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'pipelineCPU_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:09 . Memory (MB): peak = 830.699 ; gain = 0.000
+add_wave {{/pipelineCPU_sim/uut/IF_PC_add_4}} 
+add_wave {{/pipelineCPU_sim/uut/ID_PC_add_4}} 
+add_wave {{/pipelineCPU_sim/uut/EX_PC_add_4}} 
+add_wave {{/pipelineCPU_sim/uut/MEM_PC_add_4}} 
+add_wave {{/pipelineCPU_sim/uut/WB_PC_add_4}} 
+save_wave_config {D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/pipelineCPU_sim_behav.wcfg}
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'pipelineCPU_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/PipelineCPU.sim/sim_1/behav'
+"xvlog -m64 --relax -prj pipelineCPU_sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-311] analyzing module AddSub
+INFO: [VRFC 10-311] analyzing module Cmp
+INFO: [VRFC 10-311] analyzing module Logic
+INFO: [VRFC 10-311] analyzing module Shift
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/ROM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ROM
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/RegFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/MEM_WB_Reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEM_WB_Reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/IF_ID_Reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IF_ID_Reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/ID_EX_Reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ID_EX_Reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/Hazard_Unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Hazard_Unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/Forward_Unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Forward_Unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/EX_MEM_Reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EX_MEM_Reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/DataMem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataMem
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/Control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Control
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/PipelineCPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PipelineCPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/PipelineCPU.srcs/sim_1/new/pipelineCPU_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipelineCPU_sim
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/PipelineCPU.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/PipelineCPU.sim/sim_1/behav'
+Vivado Simulator 2015.3
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: D:/Program/xilinx_vivado/Vivado/2015.3/bin/unwrapped/win64.o/xelab.exe -wto 667bc37fbf1742b08d602662b13f6ddf --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot pipelineCPU_sim_behav xil_defaultlib.pipelineCPU_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 33 for port S [D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/ALU.v:26]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/PipelineCPU.v" Line 1. Module PipelineCPU doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/IF_ID_Reg.v" Line 1. Module IF_ID_Reg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/ID_EX_Reg.v" Line 1. Module ID_EX_Reg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/ALU.v" Line 1. Module ALU doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/ALU.v" Line 42. Module AddSub doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/ALU.v" Line 69. Module Cmp doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/ALU.v" Line 87. Module Logic doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/ALU.v" Line 104. Module Shift doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/EX_MEM_Reg.v" Line 1. Module EX_MEM_Reg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/MEM_WB_Reg.v" Line 1. Module MEM_WB_Reg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/Control.v" Line 1. Module Control doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/Forward_Unit.v" Line 1. Module Forward_Unit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/Hazard_Unit.v" Line 1. Module Hazard_Unit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/PipelineCPU.v" Line 1. Module PipelineCPU doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/IF_ID_Reg.v" Line 1. Module IF_ID_Reg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/ID_EX_Reg.v" Line 1. Module ID_EX_Reg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/ALU.v" Line 1. Module ALU doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/ALU.v" Line 42. Module AddSub doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/ALU.v" Line 69. Module Cmp doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/ALU.v" Line 87. Module Logic doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/ALU.v" Line 104. Module Shift doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/EX_MEM_Reg.v" Line 1. Module EX_MEM_Reg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/MEM_WB_Reg.v" Line 1. Module MEM_WB_Reg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/Control.v" Line 1. Module Control doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/Forward_Unit.v" Line 1. Module Forward_Unit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/Hazard_Unit.v" Line 1. Module Hazard_Unit doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.ROM
+Compiling module xil_defaultlib.IF_ID_Reg
+Compiling module xil_defaultlib.RegFile
+Compiling module xil_defaultlib.ID_EX_Reg
+Compiling module xil_defaultlib.AddSub
+Compiling module xil_defaultlib.Cmp
+Compiling module xil_defaultlib.Logic
+Compiling module xil_defaultlib.Shift
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.EX_MEM_Reg
+Compiling module xil_defaultlib.MEM_WB_Reg
+Compiling module xil_defaultlib.Control
+Compiling module xil_defaultlib.DataMem
+Compiling module xil_defaultlib.Forward_Unit
+Compiling module xil_defaultlib.Hazard_Unit
+Compiling module xil_defaultlib.PipelineCPU
+Compiling module xil_defaultlib.pipelineCPU_sim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot pipelineCPU_sim_behav
+
+****** Webtalk v2015.3 (64-bit)
+  **** SW Build 1368829 on Mon Sep 28 20:06:43 MDT 2015
+  **** IP Build 1367837 on Mon Sep 28 08:56:14 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/PipelineCPU.sim/sim_1/behav/xsim.dir/pipelineCPU_sim_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Fri Dec 20 22:48:29 2019...
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/PipelineCPU.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "pipelineCPU_sim_behav -key {Behavioral:sim_1:Functional:pipelineCPU_sim} -tclbatch {pipelineCPU_sim.tcl} -view {D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/pipelineCPU_sim_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.3
+Time resolution is 1 ps
+open_wave_config D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/pipelineCPU_sim_behav.wcfg
+source pipelineCPU_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'pipelineCPU_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:09 . Memory (MB): peak = 847.055 ; gain = 0.000
+remove_forces { {/pipelineCPU_sim/uut/RegFile/RF_data[31]} {/pipelineCPU_sim/uut/RegFile/RF_data[30]} {/pipelineCPU_sim/uut/RegFile/RF_data[29]} {/pipelineCPU_sim/uut/RegFile/RF_data[27]} {/pipelineCPU_sim/uut/RegFile/RF_data[25]} {/pipelineCPU_sim/uut/RegFile/RF_data[28]} {/pipelineCPU_sim/uut/RegFile/RF_data[26]} {/pipelineCPU_sim/uut/RegFile/RF_data[24]} {/pipelineCPU_sim/uut/RegFile/RF_data[22]} {/pipelineCPU_sim/uut/RegFile/RF_data[23]} {/pipelineCPU_sim/uut/RegFile/RF_data[21]} {/pipelineCPU_sim/uut/RegFile/RF_data[20]} {/pipelineCPU_sim/uut/RegFile/RF_data[19]} {/pipelineCPU_sim/uut/RegFile/RF_data[18]} {/pipelineCPU_sim/uut/RegFile/RF_data[17]} {/pipelineCPU_sim/uut/RegFile/RF_data[16]} {/pipelineCPU_sim/uut/RegFile/RF_data[15]} {/pipelineCPU_sim/uut/RegFile/RF_data[14]} {/pipelineCPU_sim/uut/RegFile/RF_data[13]} {/pipelineCPU_sim/uut/RegFile/RF_data[12]} {/pipelineCPU_sim/uut/RegFile/RF_data[10]} {/pipelineCPU_sim/uut/RegFile/RF_data[11]} }
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Dec 21 00:05:53 2019...

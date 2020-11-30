@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="pipelineCPU_sim_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="pipelineCPU_sim" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="131800001fs"></ZoomEndTime>
+      <Cursor1Time time="29600000fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="18" />
+   <wvobject db_ref_id="1" fp_name="/pipelineCPU_sim/clkin" type="logic">
+      <obj_property name="ElementShortName">clkin</obj_property>
+      <obj_property name="ObjectShortName">clkin</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/pipelineCPU_sim/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/pipelineCPU_sim/PERIOD" type="array">
+      <obj_property name="ElementShortName">PERIOD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PERIOD[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/pipelineCPU_sim/uut/IF_PC_add_4" type="array">
+      <obj_property name="ElementShortName">IF_PC_add_4[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IF_PC_add_4[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/pipelineCPU_sim/uut/ID_PC_add_4" type="array">
+      <obj_property name="ElementShortName">ID_PC_add_4[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_PC_add_4[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/pipelineCPU_sim/uut/EX_PC_add_4" type="array">
+      <obj_property name="ElementShortName">EX_PC_add_4[31:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_PC_add_4[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/pipelineCPU_sim/uut/MEM_PC_add_4" type="array">
+      <obj_property name="ElementShortName">MEM_PC_add_4[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM_PC_add_4[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/pipelineCPU_sim/uut/WB_PC_add_4" type="array">
+      <obj_property name="ElementShortName">WB_PC_add_4[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WB_PC_add_4[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/pipelineCPU_sim/uut/IF_Instruct" type="array">
+      <obj_property name="ElementShortName">IF_Instruct[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IF_Instruct[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/pipelineCPU_sim/uut/ID_Instruct" type="array">
+      <obj_property name="ElementShortName">ID_Instruct[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_Instruct[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/pipelineCPU_sim/uut/ALU/A" type="array">
+      <obj_property name="ElementShortName">A[31:0]</obj_property>
+      <obj_property name="ObjectShortName">A[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/pipelineCPU_sim/uut/ALU/B" type="array">
+      <obj_property name="ElementShortName">B[31:0]</obj_property>
+      <obj_property name="ObjectShortName">B[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/pipelineCPU_sim/uut/ALU/Z" type="array">
+      <obj_property name="ElementShortName">Z[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Z[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/pipelineCPU_sim/uut/RegFile/RF_data" type="array">
+      <obj_property name="ElementShortName">RF_data[31:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">RF_data[31:0][31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/pipelineCPU_sim/uut/ForwardA" type="array">
+      <obj_property name="ElementShortName">ForwardA[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ForwardA[1:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/pipelineCPU_sim/uut/ForwardB" type="array">
+      <obj_property name="ElementShortName">ForwardB[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ForwardB[1:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/pipelineCPU_sim/uut/WB_AddrC" type="array">
+      <obj_property name="ElementShortName">WB_AddrC[4:0]</obj_property>
+      <obj_property name="ObjectShortName">WB_AddrC[4:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/pipelineCPU_sim/uut/IF_PCSrc" type="array">
+      <obj_property name="ElementShortName">IF_PCSrc[2:0]</obj_property>
+      <obj_property name="ObjectShortName">IF_PCSrc[2:0]</obj_property>
+   </wvobject>
+</wave_config>

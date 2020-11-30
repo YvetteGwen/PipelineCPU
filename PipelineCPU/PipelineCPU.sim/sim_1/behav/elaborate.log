@@ -1,0 +1,55 @@
+Vivado Simulator 2015.3
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: D:/Program/xilinx_vivado/Vivado/2015.3/bin/unwrapped/win64.o/xelab.exe -wto 667bc37fbf1742b08d602662b13f6ddf --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot pipelineCPU_sim_behav xil_defaultlib.pipelineCPU_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 33 for port S [D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/ALU.v:26]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/PipelineCPU.v" Line 1. Module PipelineCPU doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/IF_ID_Reg.v" Line 1. Module IF_ID_Reg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/ID_EX_Reg.v" Line 1. Module ID_EX_Reg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/ALU.v" Line 1. Module ALU doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/ALU.v" Line 42. Module AddSub doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/ALU.v" Line 69. Module Cmp doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/ALU.v" Line 87. Module Logic doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/ALU.v" Line 104. Module Shift doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/EX_MEM_Reg.v" Line 1. Module EX_MEM_Reg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/MEM_WB_Reg.v" Line 1. Module MEM_WB_Reg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/Control.v" Line 1. Module Control doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/Forward_Unit.v" Line 1. Module Forward_Unit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/Hazard_Unit.v" Line 1. Module Hazard_Unit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/PipelineCPU.v" Line 1. Module PipelineCPU doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/IF_ID_Reg.v" Line 1. Module IF_ID_Reg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/ID_EX_Reg.v" Line 1. Module ID_EX_Reg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/ALU.v" Line 1. Module ALU doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/ALU.v" Line 42. Module AddSub doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/ALU.v" Line 69. Module Cmp doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/ALU.v" Line 87. Module Logic doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/ALU.v" Line 104. Module Shift doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/EX_MEM_Reg.v" Line 1. Module EX_MEM_Reg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/MEM_WB_Reg.v" Line 1. Module MEM_WB_Reg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/Control.v" Line 1. Module Control doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/Forward_Unit.v" Line 1. Module Forward_Unit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/A_GW/Courses/Computer_organization/lab/vivado/PipelineCPU/src/Hazard_Unit.v" Line 1. Module Hazard_Unit doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.ROM
+Compiling module xil_defaultlib.IF_ID_Reg
+Compiling module xil_defaultlib.RegFile
+Compiling module xil_defaultlib.ID_EX_Reg
+Compiling module xil_defaultlib.AddSub
+Compiling module xil_defaultlib.Cmp
+Compiling module xil_defaultlib.Logic
+Compiling module xil_defaultlib.Shift
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.EX_MEM_Reg
+Compiling module xil_defaultlib.MEM_WB_Reg
+Compiling module xil_defaultlib.Control
+Compiling module xil_defaultlib.DataMem
+Compiling module xil_defaultlib.Forward_Unit
+Compiling module xil_defaultlib.Hazard_Unit
+Compiling module xil_defaultlib.PipelineCPU
+Compiling module xil_defaultlib.pipelineCPU_sim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot pipelineCPU_sim_behav
