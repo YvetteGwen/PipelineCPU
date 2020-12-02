@@ -1,0 +1,10 @@
+Vivado Simulator 2015.3
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: D:/Program/xilinx_vivado/Vivado/2015.3/bin/unwrapped/win64.o/xelab.exe -wto b39a15f07d504971bcc387e74e81784e --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top_sim_behav xil_defaultlib.top_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-426] cannot find port pcAdd4 on this module [D:/A_GW/Courses/Computer_organization/lab/vivado/18340045_guanyawen/18340045_guanyawen_project_files/CPU/CPU.srcs/sim_1/new/top_sim.v:12]
+ERROR: [VRFC 10-426] cannot find port inst on this module [D:/A_GW/Courses/Computer_organization/lab/vivado/18340045_guanyawen/18340045_guanyawen_project_files/CPU/CPU.srcs/sim_1/new/top_sim.v:15]
+ERROR: [VRFC 10-426] cannot find port pc on this module [D:/A_GW/Courses/Computer_organization/lab/vivado/18340045_guanyawen/18340045_guanyawen_project_files/CPU/CPU.srcs/sim_1/new/top_sim.v:16]
+ERROR: [VRFC 10-426] cannot find port pcAdd4 on this module [D:/A_GW/Courses/Computer_organization/lab/vivado/18340045_guanyawen/18340045_guanyawen_project_files/CPU/CPU.srcs/sim_1/new/top_sim.v:17]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.

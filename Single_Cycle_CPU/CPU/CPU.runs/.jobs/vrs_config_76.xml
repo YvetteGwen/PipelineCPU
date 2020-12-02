@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="synth_1" LaunchDir="D:/A_GW/Courses/Computer_organization/lab/vivado/18340045_guanyawen/18340045_guanyawen_project_files/CPU/CPU.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+</Runs>
+
