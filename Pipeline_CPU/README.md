@@ -1,3 +1,3 @@
 # Pipeline CPU
 
-A pipeline CPU written in vivado. 
+A pipeline CPU written in verilog. 
